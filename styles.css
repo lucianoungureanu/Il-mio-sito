@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Futura";
+  font-weight:normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scritta {
+  text-align: center;
+  padding: 15px;
+  background-color: #FFEE1F;
+  position: fixed;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  padding: 200px 0 0 70px;
+}
+
+.button {
+  background-color: #FFEE1F;
+  width: 190px;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+  padding: 14px;
+  border-radius: 40px;
+  margin-top: 250px;
+}
+
+.page1 {
+  height: 768px;
+  background-color: black;
+}
+
+.page2 {
+  height: auto;
+  background-image: linear-gradient(to bottom right,#FFEE1F ,#FFF192 );
+}
+
+.page3 {
+  height: auto;
+  background-image: linear-gradient(to bottom right,#000000, #383838);
+}
+
+.page4 {
+  height: auto;
+  background-color: white;
+}
+
+.arrow {
+  height: 60px;
+  width: 60px;
+  display: block;
+  margin: auto;
+}
+
+h2 {
+  font-size: 72px;
+  padding: 80px 0 0 40px;
+}
+
+h3 {
+  font-size: 40px;
+  padding: 60px 0 0 40px;
+}
+
+.intro {
+  padding: 20px 0 0 50px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 414px;
+  text-align: left;
+  border-radius: 20px;
+  margin: 40px 20px 0px 40px;
+  padding: 21px 10px 20px 28px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.cards:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.card-title {
+  font-size: 30px;
+  margin-bottom: 19px;
+}
+
+.card {
+  margin-right: 7px;
+}
+
+.spacing {
+  height: 21px;
+}
+
+.rimanda-container {
+  padding: 50px 0 0 0px;
+  font-size: 30px;
+  margin: auto;
+}
+
+
+.p3-head {
+ color: #FFEE1F;
+}
+
+.boh {
+  color: white;
+  width: 600px;
+  padding: 50px 20px 0 50px;
+}
+
+.titolowhite {
+  padding-left: 0px;
+  color: #FFEE1F;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+#skrrt {
+  padding-bottom: 40px;
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+
+.mockup {
+  height: 300px;
+  width: 400px;
+  float: right;
+  margin-right: 50px;
+  background-color: 	#282828;
+  border-radius: 30px;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+
+.secondo {
+  color: white;
+  text-align: center;
+  width: 200px;
+  padding-bottom:50px;
+  margin: 0 0 0 70%;
+
+}
+
+.boxes-container {
+  display: flex;
+  padding: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.photo {
+  height: 120px;
+  width:120px;
+  margin-bottom: 30px;
+
+}
+
+.box {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.testosotto {
+  font-size: 25px;
+  padding: 5px;
+}
+
+.sopra {
+  font-weight: bold;
+}
+
+.box:hover {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.2);
+}
+
+#wow {
+  font-size: 16px;
+}
+
+#boxato {
+  background-color: #68D072; /* #00cc00; */
+  color: black;
+  border-radius: 40px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 2px;
+}
+
+#boxato:hover {
+  background-color: black;
+  color: white;
+}
+
+.tre:hover {
+  background-color: #FFEE1F;
+}
+
+.fotomia {
+  width:350px;
+  height: auto;
+  position: absolute;
+  left: 60%;
+  bottom: 30%;
+}
+
+
+
+@media only screen and (max-width: 512px) {
+
+  .contattami,
+  .design {
+    margin-left: 12px;
+  }
+
+  .button {
+    margin-top: 300px;
+  }
+
+  h1 {
+    padding: 120px 0 0 40px;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  h2 {
+    padding : 40px 0 0 20px;
+  }
+
+  .intro {
+    padding: 30px 0 0 30px;
+  }
+
+  h3 {
+    padding-left: 35px;
+  }
+
+  .p3-head {
+    padding-left: 30px;
+  }
+
+  .cards {
+    width: auto;
+  }
+
+  .boh {
+    width:auto;
+  }
+
+  .contact {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width:887px) {
+  .mockup {
+    display: none;
+  }
+  .secondo {
+    margin: auto;
+    padding-top: 50px;
+  }
+
+  .fotomia {
+    display: none;
+  }
+}
